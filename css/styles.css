@@ -1,0 +1,157 @@
+body{
+  background-image: url('../image/background.jpg');
+  background-size: cover;
+  box-sizing: border-box;
+}
+.top{
+  width: auto;
+  height: 20px;
+  background-color: indigo;
+  padding: 10px;
+  margin-top: 50px;
+}
+.center{
+  text-align: center;
+  font-size: 70;
+  color: red;
+  
+}
+.leftside {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 650px; 
+  background-color: cornflowerblue;
+  margin-left:100px; 
+  margin-right:auto;
+  margin-top:10px;  
+}
+
+.menu{
+  background-color:green;
+  
+}
+.menu ul li{
+  color:yellow;
+  display:inline-block;
+  font-size: 20px;
+  padding-left: 60px;
+  padding-right: 20px;
+
+}
+.rightside {
+  float: right;
+  width: 45%;
+  padding: 10px;
+  height: 650px; 
+  background-color: cornflowerblue;
+  margin-right: 80px;
+  margin-top: 10px;
+  
+}
+.profileimage{
+  display: block;
+  width: 90%;
+  height: auto;
+}
+.summary{
+  background-color: tomato;
+  color: blue;
+
+}
+.homecontent p{
+  font-size: 20px;
+  font-style: italic;
+}
+/* CONTACT STYLES */
+.contact{
+  border-radius: 5px;
+}
+
+
+
+
+
+/* Responsive websign css*/
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LEFT COTENT CSS
+.photo {
+  border: 2px solid goldenrod;
+  width:370px;
+  height:250px; 
+  background-image: url('../image/background1.jpg');  
+  margin-left:100px; 
+  margin-right:auto;
+  margin-top:70px;
+}
+.space{
+ height: auto;
+ width: auto;
+}
+
+.leftmenu{
+  float: left;
+  width: 330px;
+  height: 200px; 
+  background-color: teal;
+  padding: 20px;
+  border: 2px solid green;
+}
+
+.leftmenu ul li{
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  background-color:green;
+  color: yellow;
+}
+/* END OF LEFT CSS CONTENT */
+
+/* HEADER */
+/*
+.header{
+  width: 700px;
+  height: 30px;
+  background-color: violet;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:10px; 
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+}
+ */
