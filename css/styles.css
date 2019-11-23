@@ -14,8 +14,7 @@ body{
   text-align: center;
   font-size: 30PX;
   color:white;
-  font-style: italic;
-  
+  font-style: italic;  
 }
 .leftside {
   float: left;
@@ -28,10 +27,8 @@ body{
   margin-top:10px;  
   color: whitesmoke;
 }
-
 .menu{
-  background-color:green;
-  
+  background-color:green;  
 }
 .menu ul li{
   color:white;
@@ -54,8 +51,7 @@ body{
   display: block;
   width: 90%;
   height: 600px;
-  border-radius: 50%;
-  
+  border-radius: 50%;  
 }
 .summary{
   background-color: teal;
@@ -63,7 +59,6 @@ body{
 }
 .summary h2{
   text-align: center;
-
 }
 .homecontent p{
   font-size: 20px;
@@ -157,7 +152,6 @@ input[type=submit] {
   display: inline-block;
   padding: 5px;
   padding-left: 20px;
-  /* padding-right: 40px; */
   color:white;
 }
 .rightside_resume{
