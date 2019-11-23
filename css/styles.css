@@ -13,7 +13,7 @@ body{
 .center{
   text-align: center;
   font-size: 30PX;
-  color: red;
+  color:white;
   font-style: italic;
   
 }
@@ -34,10 +34,10 @@ body{
   
 }
 .menu ul li{
-  color:yellow;
+  color:white;
   display:inline-block;
   font-size: 20px;
-  padding-left: 60px;
+  padding-left: 40px;
   padding-right: 20px;
 
 }
@@ -53,7 +53,9 @@ body{
 .profileimage{
   display: block;
   width: 90%;
-  height: auto;
+  height: 600px;
+  border-radius: 50%;
+  
 }
 .summary{
   background-color: teal;
@@ -145,17 +147,18 @@ input[type=submit] {
 }
 
 .menu_resume{
-  background-color: green;
+  background-color:green;
+  height: 40px;
 }
 .menu_resume ul{
   display: inline-block;
 }
 .menu_resume ul li{
   display: inline-block;
-  padding: 5x;
+  padding: 5px;
   padding-left: 20px;
-  padding-right: 40px;
-  color: yellow;
+  /* padding-right: 40px; */
+  color:white;
 }
 .rightside_resume{
   float: right;
